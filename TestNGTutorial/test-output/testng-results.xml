@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-27T14:49:08 IST" name="Suite" finished-at="2023-07-27T14:49:09 IST" duration-ms="520">
+    <groups>
+      <group name="Smoke">
+        <method signature="day1.Demo()[pri:0, instance:TestNG_T.day1@593aaf41]" name="Demo" class="TestNG_T.day1"/>
+        <method signature="day3.apiLogincarloan()[pri:0, instance:TestNG_T.day3@3ee37e5a]" name="apiLogincarloan" class="TestNG_T.day3"/>
+        <method signature="day2.smk()[pri:0, instance:TestNG_T.day2@2d52216b]" name="smk" class="TestNG_T.day2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-07-27T14:49:08 IST" name="Regression" finished-at="2023-07-27T14:49:08 IST" duration-ms="171">
+      <class name="TestNG_T.day1">
+        <test-method is-config="true" signature="BeforeExecute()[pri:0, instance:TestNG_T.day1@593aaf41]" started-at="2023-07-27T14:49:08 IST" name="BeforeExecute" finished-at="2023-07-27T14:49:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeExecute -->
+        <test-method signature="Demo()[pri:0, instance:TestNG_T.day1@593aaf41]" started-at="2023-07-27T14:49:08 IST" name="Demo" finished-at="2023-07-27T14:49:08 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method signature="SecondTest()[pri:0, instance:TestNG_T.day1@593aaf41]" started-at="2023-07-27T14:49:08 IST" name="SecondTest" finished-at="2023-07-27T14:49:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method is-config="true" signature="Lastone()[pri:0, instance:TestNG_T.day1@593aaf41]" started-at="2023-07-27T14:49:08 IST" name="Lastone" finished-at="2023-07-27T14:49:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lastone -->
+      </class> <!-- TestNG_T.day1 -->
+      <class name="TestNG_T.day4">
+        <test-method signature="para(java.lang.String)[pri:0, instance:TestNG_T.day4@2ea41516]" started-at="2023-07-27T14:49:08 IST" name="para" finished-at="2023-07-27T14:49:08 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- para -->
+      </class> <!-- TestNG_T.day4 -->
+      <class name="TestNG_T.day3">
+        <test-method signature="apiLogincarloan()[pri:0, instance:TestNG_T.day3@3ee37e5a]" started-at="2023-07-27T14:49:08 IST" name="apiLogincarloan" finished-at="2023-07-27T14:49:08 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLogincarloan -->
+        <test-method signature="mobileLogincarloan()[pri:0, instance:TestNG_T.day3@3ee37e5a]" started-at="2023-07-27T14:49:08 IST" name="mobileLogincarloan" finished-at="2023-07-27T14:49:08 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLogincarloan -->
+        <test-method signature="weblogincarloan()[pri:0, instance:TestNG_T.day3@3ee37e5a]" started-at="2023-07-27T14:49:08 IST" name="weblogincarloan" finished-at="2023-07-27T14:49:08 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogincarloan -->
+      </class> <!-- TestNG_T.day3 -->
+    </test> <!-- Regression -->
+    <test started-at="2023-07-27T14:49:09 IST" name="Chapter 2" finished-at="2023-07-27T14:49:09 IST" duration-ms="18">
+      <class name="TestNG_T.day1">
+        <test-method is-config="true" signature="Bfsuit()[pri:0, instance:TestNG_T.day1@593aaf41]" started-at="2023-07-27T14:49:08 IST" name="Bfsuit" finished-at="2023-07-27T14:49:08 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuit -->
+        <test-method is-config="true" signature="Afsuit()[pri:0, instance:TestNG_T.day1@593aaf41]" started-at="2023-07-27T14:49:09 IST" name="Afsuit" finished-at="2023-07-27T14:49:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afsuit -->
+      </class> <!-- TestNG_T.day1 -->
+      <class name="TestNG_T.day2">
+        <test-method signature="secondTest(java.lang.String)[pri:0, instance:TestNG_T.day2@2d52216b]" started-at="2023-07-27T14:49:09 IST" name="secondTest" finished-at="2023-07-27T14:49:09 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method signature="smk()[pri:0, instance:TestNG_T.day2@2d52216b]" started-at="2023-07-27T14:49:09 IST" name="smk" finished-at="2023-07-27T14:49:09 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smk -->
+      </class> <!-- TestNG_T.day2 -->
+    </test> <!-- Chapter 2 -->
+  </suite> <!-- Suite -->
+</testng-results>
